@@ -2,3 +2,4 @@
 I have made this project using React, Spring Boot  ,Html ,CSS ,React Hooks , CDN , Cache, MongoDB and cloud
 
 Before starting please install React and nodejs. Please use the documentation of react to find the concepts about hooks and material UI.
+Run npm start to run the server.
