@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvaW5kZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBUztFQUNUOztjQUVZO0VBQ1osbUNBQW1DO0VBQ25DLGtDQUFrQztBQUNwQzs7QUFFQTtFQUNFO2FBQ1c7QUFDYiIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBtYXJnaW46IDA7XG4gIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsICdSb2JvdG8nLCAnT3h5Z2VuJyxcbiAgICAnVWJ1bnR1JywgJ0NhbnRhcmVsbCcsICdGaXJhIFNhbnMnLCAnRHJvaWQgU2FucycsICdIZWx2ZXRpY2EgTmV1ZScsXG4gICAgc2Fucy1zZXJpZjtcbiAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7XG4gIC1tb3otb3N4LWZvbnQtc21vb3RoaW5nOiBncmF5c2NhbGU7XG59XG5cbmNvZGUge1xuICBmb250LWZhbWlseTogc291cmNlLWNvZGUtcHJvLCBNZW5sbywgTW9uYWNvLCBDb25zb2xhcywgJ0NvdXJpZXIgTmV3JyxcbiAgICBtb25vc3BhY2U7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */</style><style>.navbar__component {
+    width: 100vw;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+}
+.navbar__logo {
+   background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -50px;
+	width: 98px;
+	height: 31px;
+    margin: 18px;
+}
+.navbar__locator {
+    display:flex;
+    margin: 20px 0px;
+}
+.navbar__location {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.navbar__locatorImage {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -70px -378px;
+	width: 16px;
+	height: 18px;
+}
+.navbar__searchcomponent {
+    display:flex;
+    margin-left: 72px;
+}
+.navbar__seaarchboxdiv {
+    background-color: #FEBE68;
+    height: 44px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
+}
+.navbar__searchbox{
+    width: 640px;
+    height: 38px;
+    margin-top: 8px;
+}
+.navbar__searchicon {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+    margin: 12px;
+}
+.nav__dropdown {
+    width: 60px;
+    height: 44px;
+    margin-top: 8px;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+}
+.navbar__signin{
+    width: 120px;
+    margin-top: 13px;
+    margin-left: 60px;
+}
+.navbar__returns {
+    width: 80px;
+    margin-top:13px;
+    margin-left:10px
+}
+.navbar__cart {
+    display:flex;
+    margin-top: 15px;
+}
+.navbar_text {
+    color: white;
+}
+.cart__image {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -217px -336px;
+    width: 43px;
+	height: 30px;
+}
+.navbar_text_cart {
+    margin-top: 13px;
+    font-weight: bold;
+    position: relative;
+    left: -10px;
+}
+.cart__item {
+    font-weight: bold;
+    position: relative;
+    left: -23px;
+    top: -3px;
+    color: #F08805;
+}
+
+.navbar__footer {
+    width: 100vw;
+    height: 30px;
+    background-color: #22303E;
+    color: white;
+    display: flex;
+}
+.navbar__footer_text {
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvQ29tcG9uZW50cy9OYXZCYXIvTmF2QmFyLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1oseUJBQXlCO0lBQ3pCLGFBQWE7QUFDakI7QUFDQTtHQUNHLDJIQUEySDtDQUM3SCxXQUFXO0NBQ1gsWUFBWTtJQUNULFlBQVk7QUFDaEI7QUFDQTtJQUNJLFlBQVk7SUFDWixnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsZ0JBQWdCO0FBQ3BCO0FBQ0E7SUFDSSw2SEFBNkg7Q0FDaEksV0FBVztDQUNYLFlBQVk7QUFDYjtBQUNBO0lBQ0ksWUFBWTtJQUNaLGlCQUFpQjtBQUNyQjtBQUNBO0lBQ0kseUJBQXlCO0lBQ3pCLFlBQVk7SUFDWixXQUFXO0lBQ1gsOEJBQThCO0lBQzlCLGVBQWU7QUFDbkI7QUFDQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1osZUFBZTtBQUNuQjtBQUNBO0lBQ0ksNEhBQTRIO0NBQy9ILFdBQVc7Q0FDWCxZQUFZO0lBQ1QsWUFBWTtBQUNoQjtBQUNBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixlQUFlO0lBQ2YseUJBQXlCO0lBQ3pCLDhCQUE4QjtJQUM5Qix1QkFBdUI7QUFDM0I7QUFDQTtJQUNJLFlBQVk7SUFDWixnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCO0FBQ0E7SUFDSSxXQUFXO0lBQ1gsZUFBZTtJQUNmO0FBQ0o7QUFDQTtJQUNJLFlBQVk7SUFDWixnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJLFlBQVk7QUFDaEI7QUFDQTtJQUNJLDhIQUE4SDtJQUM5SCxXQUFXO0NBQ2QsWUFBWTtBQUNiO0FBQ0E7SUFDSSxnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQixXQUFXO0FBQ2Y7QUFDQTtJQUNJLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLFNBQVM7SUFDVCxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFlBQVk7SUFDWix5QkFBeUI7SUFDekIsWUFBWTtJQUNaLGFBQWE7QUFDakI7QUFDQTtJQUNJLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsaUJBQWlCO0FBQ3JCIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhcl9fY29tcG9uZW50IHtcbiAgICB3aWR0aDogMTAwdnc7XG4gICAgaGVpZ2h0OiA2MHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMxMzFBMjI7XG4gICAgZGlzcGxheTogZmxleDtcbn1cbi5uYXZiYXJfX2xvZ28ge1xuICAgYmFja2dyb3VuZDogdXJsKCdodHRwczovL2lrLmltYWdla2l0LmlvL2FtYXpvbjEyMzQvc3ByaXRlXzM1MHhfcTdRWmtKQ1ZsLnBuZz91cGRhdGVkQXQ9MTYyNzEyMTkzNDI2NCcpIG5vLXJlcGVhdCAtOXB4IC01MHB4O1xuXHR3aWR0aDogOThweDtcblx0aGVpZ2h0OiAzMXB4O1xuICAgIG1hcmdpbjogMThweDtcbn1cbi5uYXZiYXJfX2xvY2F0b3Ige1xuICAgIGRpc3BsYXk6ZmxleDtcbiAgICBtYXJnaW46IDIwcHggMHB4O1xufVxuLm5hdmJhcl9fbG9jYXRpb24ge1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBtYXJnaW4tbGVmdDogNXB4O1xufVxuLm5hdmJhcl9fbG9jYXRvckltYWdlIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJ2h0dHBzOi8vaWsuaW1hZ2VraXQuaW8vYW1hem9uMTIzNC9zcHJpdGVfMzUweF9xN1Faa0pDVmwucG5nP3VwZGF0ZWRBdD0xNjI3MTIxOTM0MjY0Jykgbm8tcmVwZWF0IC03MHB4IC0zNzhweDtcblx0d2lkdGg6IDE2cHg7XG5cdGhlaWdodDogMThweDtcbn1cbi5uYXZiYXJfX3NlYXJjaGNvbXBvbmVudCB7XG4gICAgZGlzcGxheTpmbGV4O1xuICAgIG1hcmdpbi1sZWZ0OiA3MnB4O1xufVxuLm5hdmJhcl9fc2VhYXJjaGJveGRpdiB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0ZFQkU2ODtcbiAgICBoZWlnaHQ6IDQ0cHg7XG4gICAgd2lkdGg6IDQ4cHg7XG4gICAgYm9yZGVyLXJhZGl1czogMHB4IDVweCA1cHggMHB4O1xuICAgIG1hcmdpbi10b3A6IDhweDtcbn1cbi5uYXZiYXJfX3NlYXJjaGJveHtcbiAgICB3aWR0aDogNjQwcHg7XG4gICAgaGVpZ2h0OiAzOHB4O1xuICAgIG1hcmdpbi10b3A6IDhweDtcbn1cbi5uYXZiYXJfX3NlYXJjaGljb24ge1xuICAgIGJhY2tncm91bmQ6IHVybCgnaHR0cHM6Ly9pay5pbWFnZWtpdC5pby9hbWF6b24xMjM0L3Nwcml0ZV8zNTB4X3E3UVprSkNWbC5wbmc/dXBkYXRlZEF0PTE2MjcxMjE5MzQyNjQnKSBuby1yZXBlYXQgLTlweCAtMjg5cHg7XG5cdHdpZHRoOiAyM3B4O1xuXHRoZWlnaHQ6IDIzcHg7XG4gICAgbWFyZ2luOiAxMnB4O1xufVxuLm5hdl9fZHJvcGRvd24ge1xuICAgIHdpZHRoOiA2MHB4O1xuICAgIGhlaWdodDogNDRweDtcbiAgICBtYXJnaW4tdG9wOiA4cHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2U2ZTVlNTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHggMHB4IDBweCA1cHg7XG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XG59XG4ubmF2YmFyX19zaWduaW57XG4gICAgd2lkdGg6IDEyMHB4O1xuICAgIG1hcmdpbi10b3A6IDEzcHg7XG4gICAgbWFyZ2luLWxlZnQ6IDYwcHg7XG59XG4ubmF2YmFyX19yZXR1cm5zIHtcbiAgICB3aWR0aDogODBweDtcbiAgICBtYXJnaW4tdG9wOjEzcHg7XG4gICAgbWFyZ2luLWxlZnQ6MTBweFxufVxuLm5hdmJhcl9fY2FydCB7XG4gICAgZGlzcGxheTpmbGV4O1xuICAgIG1hcmdpbi10b3A6IDE1cHg7XG59XG4ubmF2YmFyX3RleHQge1xuICAgIGNvbG9yOiB3aGl0ZTtcbn1cbi5jYXJ0X19pbWFnZSB7XG4gICAgYmFja2dyb3VuZDogdXJsKCdodHRwczovL2lrLmltYWdla2l0LmlvL2FtYXpvbjEyMzQvc3ByaXRlXzM1MHhfcTdRWmtKQ1ZsLnBuZz91cGRhdGVkQXQ9MTYyNzEyMTkzNDI2NCcpIG5vLXJlcGVhdCAtMjE3cHggLTMzNnB4O1xuICAgIHdpZHRoOiA0M3B4O1xuXHRoZWlnaHQ6IDMwcHg7XG59XG4ubmF2YmFyX3RleHRfY2FydCB7XG4gICAgbWFyZ2luLXRvcDogMTNweDtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgbGVmdDogLTEwcHg7XG59XG4uY2FydF9faXRlbSB7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGxlZnQ6IC0yM3B4O1xuICAgIHRvcDogLTNweDtcbiAgICBjb2xvcjogI0YwODgwNTtcbn1cblxuLm5hdmJhcl9fZm9vdGVyIHtcbiAgICB3aWR0aDogMTAwdnc7XG4gICAgaGVpZ2h0OiAzMHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMyMjMwM0U7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG4ubmF2YmFyX19mb290ZXJfdGV4dCB7XG4gICAgbWFyZ2luOiA1cHggMTBweDtcbiAgICBmb250LXNpemU6IDE0cHg7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><script charset="utf-8" src="./React App_files/main.3b224bf38673bdb4cc65.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.56da34146ffae420d478.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.780597f843f965da7270.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.5c7f5629678183e1c679.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.65e4e0176fa9981e94c6.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.742838b8b55a471ae372.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.c910a8a1d4f3fbe49f90.hot-update.js"></script><style>.AdvertisementOne__main {
+    height: 380px;
+    width: 335px;
+    background: white;
+    margin: 10px;
+}
+.AdvertisementOne__header {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: bold;
+    padding:15px
+}
+.AdvertisementOne__body {
+    padding-left: 15px;
+}
+.AdvertisementOne__footer {
+    padding: 15px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvQ29tcG9uZW50cy9Ib21lUGFnZS9BZHZlcnRpc2VtZW50T25lL0FkdmVydGlzZW1lbnRPbmUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsWUFBWTtBQUNoQjtBQUNBO0lBQ0ksZUFBZTtJQUNmLGlCQUFpQjtJQUNqQixpQkFBaUI7SUFDakI7QUFDSjtBQUNBO0lBQ0ksa0JBQWtCO0FBQ3RCO0FBQ0E7SUFDSSxhQUFhO0FBQ2pCIiwic291cmNlc0NvbnRlbnQiOlsiLkFkdmVydGlzZW1lbnRPbmVfX21haW4ge1xuICAgIGhlaWdodDogMzgwcHg7XG4gICAgd2lkdGg6IDMzNXB4O1xuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xuICAgIG1hcmdpbjogMTBweDtcbn1cbi5BZHZlcnRpc2VtZW50T25lX19oZWFkZXIge1xuICAgIGZvbnQtc2l6ZTogMjFweDtcbiAgICBsaW5lLWhlaWdodDogMjdweDtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBwYWRkaW5nOjE1cHhcbn1cbi5BZHZlcnRpc2VtZW50T25lX19ib2R5IHtcbiAgICBwYWRkaW5nLWxlZnQ6IDE1cHg7XG59XG4uQWR2ZXJ0aXNlbWVudE9uZV9fZm9vdGVyIHtcbiAgICBwYWRkaW5nOiAxNXB4O1xufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.mainpage {
+    width: 100vw;
+    height: 100vh;
+    background: url("https://ik.imagekit.io/amazon1234/1348517_in_prime_2_pd_3000x1200_Eng._CB663273097_.jpg_WGa3rCkj2.png?updatedAt=1627118744997") no-repeat;
+    background-size: 100vw;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvQ29tcG9uZW50cy9Ib21lUGFnZS9NYWluUGFnZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLDBKQUEwSjtJQUMxSixzQkFBc0I7QUFDMUIiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbnBhZ2Uge1xuICAgIHdpZHRoOiAxMDB2dztcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIGJhY2tncm91bmQ6IHVybChcImh0dHBzOi8vaWsuaW1hZ2VraXQuaW8vYW1hem9uMTIzNC8xMzQ4NTE3X2luX3ByaW1lXzJfcGRfMzAwMHgxMjAwX0VuZy5fQ0I2NjMyNzMwOTdfLmpwZ19XR2EzckNrajIucG5nP3VwZGF0ZWRBdD0xNjI3MTE4NzQ0OTk3XCIpIG5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMHZ3O1xufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><script charset="utf-8" src="./React App_files/main.9637e55f31b6a4296ddc.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.4d187529eadf385717e1.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.b6b14f2ac0daec7af3e6.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.55414776f3aed51aedc4.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.d0d2bbdb8c1d71111dce.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.25058a5fe43aa7a19766.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.0455f495447c4f9002cf.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.f14419d3b03bdcc0ee49.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.89850ae0f4273ce991d1.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.8ba2c8d74d655a80a174.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.a76619fbb113c5271093.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.578823e80ce26dc42c91.hot-update.js"></script></head>
+  <body data-new-gr-c-s-check-loaded="14.1024.0" data-gr-ext-installed="">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div><div class="navbar__component"><div class="navbar__logo"></div><div class="navbar__locator"><div class="navbar__locatorImage"></div><div class="navbar__location"> Bangalore</div></div><div class="navbar__searchcomponent"><div><select class="nav__dropdown"><option value="All">All</option><option value="Alexa">Alexa</option><option value="Books">Books</option><option value="Baby">Baby</option><option value="Beauty">Beauty</option><option value="Clothes">Clothes</option></select></div><div><input type="text" class="navbar__searchbox"></div><div class="navbar__seaarchboxdiv"><div class="navbar__searchicon"></div></div></div><div class="navbar_text navbar__signin"><div style="font-size: 14px;">Hello, Sign In</div><div style="font-weight: bold;">Account &amp; List</div></div><div class="navbar_text navbar__returns"><div style="font-size: 14px;">Returns</div><div style="font-weight: bold;"> &amp; Order</div></div><div class="navbar_text navbar__cart"><div src="" class="cart__image"></div><div class="cart__item">0</div><div class="navbar_text_cart">Cart</div></div></div><div class="navbar__footer"><div class="navbar__footer_text">Best Seller</div><div class="navbar__footer_text">Mobile</div><div class="navbar__footer_text">Amazon Pay</div><div class="navbar__footer_text">Fashion</div><div class="navbar__footer_text">Electronics</div><div class="navbar__footer_text">Prime</div><div class="navbar__footer_text">New Release</div><div class="navbar__footer_text">Customer Service</div><div class="navbar__footer_text">Computers</div><div class="navbar__footer_text">Home &amp; Kitchen</div></div></div><div class="mainpage"><div style="padding-top: 260px; display: flex; width: 100vw;"><div class="AdvertisementOne__main"><div class="AdvertisementOne__header">Up to 70% off | Electronics clearance store</div><div class="AdvertisementOne__body"><img src="./React App_files/V238940049_IN_PC_BAU_Edit_Creation_Laptops2X._SY608_CB667377204__nBkAcb2wW.jpg" width="300px"></div><div class="AdvertisementOne__footer">See more</div></div><div class="AdvertisementOne__main"><div class="AdvertisementOne__header">Up to 70% off | Electronics clearance store</div><div class="AdvertisementOne__body"><img src="./React App_files/V238940049_IN_PC_BAU_Edit_Creation_Laptops2X._SY608_CB667377204__nBkAcb2wW.jpg" width="300px"></div><div class="AdvertisementOne__footer">See more</div></div><div class="AdvertisementOne__main"><div class="AdvertisementOne__header">Up to 70% off | Electronics clearance store</div><div class="AdvertisementOne__body"><img src="./React App_files/V238940049_IN_PC_BAU_Edit_Creation_Laptops2X._SY608_CB667377204__nBkAcb2wW.jpg" width="300px"></div><div class="AdvertisementOne__footer">See more</div></div><div class="AdvertisementOne__main"><div class="AdvertisementOne__header">Up to 70% off | Electronics clearance store</div><div class="AdvertisementOne__body"><img src="./React App_files/V238940049_IN_PC_BAU_Edit_Creation_Laptops2X._SY608_CB667377204__nBkAcb2wW.jpg" width="300px"></div><div class="AdvertisementOne__footer">See more</div></div><div class="AdvertisementOne__main"><div class="AdvertisementOne__header">Up to 70% off | Electronics clearance store</div><div class="AdvertisementOne__body"><img src="./React App_files/V238940049_IN_PC_BAU_Edit_Creation_Laptops2X._SY608_CB667377204__nBkAcb2wW.jpg" width="300px"></div><div class="AdvertisementOne__footer">See more</div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js"></script><script src="./React App_files/vendors_main.chunk.js"></script><script src="./React App_files/main.chunk.js"></script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
