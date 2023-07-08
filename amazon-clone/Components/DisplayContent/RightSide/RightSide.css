@@ -1,0 +1,28 @@
+.RightSide_main{
+    height: 100%;
+    width:80vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products{
+    width: 230px;
+    margin: 30px;
+}
+
+.product__image{
+
+}
+.product__name{
+    font-size: 16px!important;
+    line-height:24px!important;
+    font-weight:400;
+}
+.product__rating{
+    font-size: 14px;
+    color:#48b0dc;
+}
+.product__price{
+    color:#0f1111;
+    font-size:24px;
+    font-weight: 600;
+}
